@@ -1,0 +1,241 @@
+/* header {
+
+    & .row div {
+        min-height: 100px;
+    }
+    & #banner {
+        background-image: url('img/ski_banner.jpg');
+        background-position: center center;
+        background-size: cover;
+    }
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@700&display=swap');
+
+header .row div {
+    min-height: 250px;
+}
+
+header #logo {
+    background-color: cyan;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header #logo h2 {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+header #banner {
+    background-image: url('img/ski_banner.jpg');
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+header #banner h4 {
+    background-color: rgba(128, 128, 128, 0.7);
+    border-radius: 20px 0 20px 0;
+    display: inline-block;
+    margin-bottom: 8px;
+    padding: 8px 16px;
+}
+
+.navbar-brand img {
+max-height: 30px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.carousel-item p {
+    text-align: center;
+}
+
+.carousel-item h5, .carousel-item p{
+    background-color: rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    padding: 8px 16px;
+    text-shadow: 4px 4px 0px black,
+                -1px -1px 0px black;
+}
+
+.carousel-item .carousel-caption{
+    display: inline-flex;
+
+}
+
+#destaques .item img {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+}
+
+#destaques .item {
+    background-color: aqua;
+    text-align: center;
+    padding: 20px 15px;
+    margin: 5px;
+}
+
+#destaques .item h5 {
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 0;
+}
+
+#destaques .item {
+    border-radius: 12px 0px 0px 12px;
+}
+
+#destaques .col:last-child .item {
+    border-radius: 0px 12px 12px 0px;
+}
+
+#destaques .item:hover {
+    background-color: aquamarine;
+    transition: 2s;
+}
+
+#destaques .item:hover img, #destaques .item:hover h5{
+    transform: scale(1.1);
+    transition: 2s;
+    font-weight: bold;
+}
+
+section{
+    margin-bottom: 60px;
+}
+
+section h2 {
+    text-align: center;
+    font-family: 'Sora', sans-serif;
+}
+
+section p {
+    text-align: justify;
+    line-height: 170%;
+}
+
+#sobrenos h2 {
+    border-bottom: 5px solid cyan;
+    margin-bottom: 25px;
+}
+
+#sobrenos h2:hover {
+    color: burlywood;
+    border-bottom: 8px dotted aquamarine;
+    transform: scale(1.38);
+    transition: 1.5s;
+}
+
+#serviços h2 {
+    border-bottom: 3px groove goldenrod;
+    margin-bottom: 15px;
+}
+
+#serviços h2:hover {
+    color: dodgerblue;
+    border-bottom: 4px ridge yellowgreen;
+    transform: scale(1.15);
+    transition: 2s;
+}
+
+#serviços .list-group-item {
+    border-color: black;
+}
+
+#serviços .li-blue {
+    background-color: cyan;
+}
+
+#serviços .li-g {
+    background-color: gold;
+}
+
+#serviços .list-group-item h7 {
+    font-size: larger;
+    font-weight: bold;
+}
+
+#galeria h2 {
+    margin-top: 15px;
+    color: darkturquoise;
+    border-bottom: 6px dashed gold;
+}
+
+#galeria h2 span{
+    color: brown;
+}
+
+#galeria h2:hover{
+    border-bottom: 6px double gold;
+    transform: rotate(1.5deg);
+    transition: 3s;
+}
+
+#galeria h2:hover span{
+    color: pink;
+    transition: 3s;
+}
+
+#galeria .gal img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    filter: grayscale(0);
+}
+
+#galeria .gal h5 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: black;
+
+}
+
+#galeria .gal img:hover {
+    border-radius: 20px;
+    border: 3px solid black;
+    filter: grayscale(0.35);
+    transform: scale(1.14);
+    transition: 0.8s;
+}
+
+footer .list-group-item {
+    background-color: transparent;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.fa-youtube, .fa-youtube ~span{
+    color: red;
+}
+
+.fa-square-instagram, .fa-square-instagram ~span {
+    color: palevioletred;
+}
+
+.fa-tiktok, .fa-tiktok ~span, .fa-square-x-twitter, .fa-square-x-twitter ~span{
+    color: black;
+}
+
+footer a:hover {
+    opacity: 0.7;
+}
+
+.input-vermelho {
+    border-color: red;
+}
